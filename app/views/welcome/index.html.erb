@@ -1,0 +1,8 @@
+<%= form_tag '/search', id: 'search-form' do %>
+  <%= text_field_tag :term %>
+  <%= submit_tag %>
+<% end %>
+
+<div style='width: 800px;'>
+  <div id="map" style='width: 800px; height: 400px;'></div>
+</div>
